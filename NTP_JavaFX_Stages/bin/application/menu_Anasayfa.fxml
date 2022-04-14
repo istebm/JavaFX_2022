@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="anchor_tumu" prefHeight="400.0" prefWidth="550.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="application.menu_AnasayfaController">
+   <children>
+      <AnchorPane prefHeight="50.0" prefWidth="550.0" style="-fx-background-color: darkblue;">
+         <children>
+            <Button fx:id="btn_ic" layoutX="128.0" layoutY="13.0" mnemonicParsing="false" onAction="#btn_ic_Click" text="İç" />
+            <Button fx:id="btn_dis" layoutX="203.0" layoutY="12.0" mnemonicParsing="false" onAction="#btn_dis_Click" text="Dış" />
+            <Button fx:id="btn_fonk" layoutX="264.0" layoutY="12.0" mnemonicParsing="false" onAction="#btn_fonk_Click" text="Fonksiyon" />
+            <Button fx:id="btn_trans" layoutX="348.0" layoutY="13.0" mnemonicParsing="false" onAction="#btn_trans_Click" text="Transparent" />
+            <Button fx:id="btn_ham" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#btn_ham_Click" text="&lt;&gt;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchor_sol" layoutY="50.0" prefHeight="349.0" prefWidth="200.0" />
+      <AnchorPane fx:id="anchor_sag" layoutX="200.0" layoutY="50.0" prefHeight="349.0" prefWidth="350.0" style="-fx-background-color: gray;" />
+   </children>
+</AnchorPane>

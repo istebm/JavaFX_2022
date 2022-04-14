@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="361.0" prefHeight="361.0" prefWidth="400.0" style="-fx-background-color: lightgray;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="application.menu_sagController">
+   <children>
+      <Label fx:id="lbl1" layoutX="150.0" layoutY="135.0" text="Label">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

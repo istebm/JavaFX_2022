@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="application.menu_solController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="35.0" layoutY="55.0" prefHeight="400.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="91.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logom.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btn1" mnemonicParsing="false" onAction="#btn1_Click" prefHeight="52.0" prefWidth="204.0" text="Anasayfa">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btn2" mnemonicParsing="false" onAction="#btn2_Click" prefHeight="52.0" prefWidth="204.0" text="Üyeler">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btn3" mnemonicParsing="false" onAction="#btn3_Click" prefHeight="52.0" prefWidth="204.0" text="Şifre Değiştir">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btn4" mnemonicParsing="false" onAction="#btn4_Click" prefHeight="52.0" prefWidth="204.0" text="Raporlama">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btn5" mnemonicParsing="false" onAction="#btn5_Click" prefHeight="52.0" prefWidth="204.0" text="Çıkış">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
